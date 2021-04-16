@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import NuggetSVG from './nugget/nugget-svg'
+import NuggetSVG from './nugget'
 import './App.css';
 
 function App() {
