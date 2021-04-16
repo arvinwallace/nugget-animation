@@ -8,28 +8,6 @@ function NuggetSVG(){
   const movie = useRef();
 
   useEffect(() => {
-    // TweenLite.from("#nug1", 1, {"y":"-200"})
-    // TweenLite.from("#nug2", 1.2, {"y":"-200"})
-    // TweenLite.from("#nug3", .7, {"y":"-200"})
-    // TweenLite.from("#nug4", 1.7, {"y":"-200"})
-    // TweenLite.from("#nug5", 1.4, {"y":"-200"})
-    // TweenLite.from("#nugbox", .4, {"x":"-400", "opacity":"0"})
-
-    // // code //
-    // TweenLite.from("#code1", 1.2, {"opacity":"0", "x": 300}).delay(.8)
-    // TweenLite.from("#code2", 1.2, {"opacity":"0", "x": -300}).delay(1)
-    // TweenLite.from("#code3", 1, {"opacity":"0", "x": 300}).delay(.9)
-    // TweenLite.from("#code4", 1.3, {"opacity":"0","x": -300}).delay(.4)
-
-    // TweenLite.from("#nugget1", .7, {"opacity":"0", "y":100}).delay(.7)
-    // TweenLite.from("#nugget2", 1.2, {"opacity":"0","y":100}).delay(1)
-    // TweenLite.from("#nugget3", 1, {"opacity":"0","y":100}).delay(.9)
-    // TweenLite.from("#nugget4", 1.5, {"opacity":"0","y":100}).delay(.8)
-    // TweenLite.from("#nugget7", 1.2, {"opacity":"0","y":100}).delay(1)
-    // TweenLite.from("#nugget6", 1.1, {"opacity":"0","y":100}).delay(.9)
-    // TweenLite.from("#nugget5", 1.3, {"opacity":"0","y":100}).delay(.4)
-
-    // TweenLite.to("#codes", 1, {"x":8})
     movie.current = animateThis()
     movie.current.play()
   },[])
@@ -64,11 +42,11 @@ function NuggetSVG(){
   }
 
   const handleNuggetPunch = () => {
-    console.log("OOOOOOF, punched in the nuggets!")
+    console.log("OOOOOOF")
   }
   return (
     
-    <div style={{width:"300px"}}>
+    <div className="nugget-container">
         <svg viewBox="0 0 382.56 415.28">
   <defs>
     <linearGradient id="linear-gradient" x1="207.73" y1="319.2" x2="219.52" y2="416.49" gradientUnits="userSpaceOnUse">
