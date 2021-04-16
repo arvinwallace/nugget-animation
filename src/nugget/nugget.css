@@ -1,0 +1,18 @@
+.nug-button { 
+  background-color: black;
+  padding: 7px 20px 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.nug-button:active {
+  background-color: #eee;
+  color: #333;
+}
+.nugget-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
